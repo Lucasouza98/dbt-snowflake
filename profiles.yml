@@ -1,0 +1,17 @@
+dbtfiap:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ja80445.sa-east-1.aws
+
+      # User/password auth
+      user: LGFERGULHA
+      password: Abcd1234
+
+      role: AIRBYTE_ROLE
+      database: AIRBYTE_DATABASE
+      warehouse: AIRBYTE_WAREHOUSE
+      schema: AIRBYTE_SCHEMA
+      threads: 4
+      client_session_keep_alive: False
