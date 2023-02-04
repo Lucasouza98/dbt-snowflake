@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: airbyte_database
+    database: airbyte_database
+    schema: airbyte_schema
+    tables:
+      - name: patient_data
+      - name: procedure_orders 

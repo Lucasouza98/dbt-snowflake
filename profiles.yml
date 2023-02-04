@@ -9,9 +9,9 @@ dbtfiap:
       user: LGFERGULHA
       password: Abcd1234
 
-      role: AIRBYTE_ROLE
-      database: AIRBYTE_DATABASE
+      role: ACCOUNTADMIN
+      database: FIAPDB
       warehouse: AIRBYTE_WAREHOUSE
-      schema: AIRBYTE_SCHEMA
+      schema: dev_lucas_lira
       threads: 4
       client_session_keep_alive: False
